@@ -186,7 +186,7 @@ Possíveis tecnologias:
 | Pedro Vieira Lima                | A definir |
 | Matheus Vinicius da Silva Marigo | A definir |
 | João Vitor Maia                  | A definir |
-| Bruno Henrique Viana de Souza    | A definir |
+| Bruno Henrique Viana de Souz    | A definir |
 
 ---
 
