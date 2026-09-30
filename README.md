@@ -52,7 +52,7 @@ https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/sugestoes_
 
 ---
 
-## 🚀 Funcionalidades Principais
+## ⚙️ Funcionalidades Principais
 
 ### 1. Autenticação e Perfil Simples
 * **Autenticação Segura:** Cadastro e login via OAuth (Google, Apple, etc.).
