@@ -11,8 +11,6 @@ Este projeto tem como objetivo desenvolver uma **plataforma interativa de aprend
 
 A plataforma busca transformar o aprendizado de programação em uma experiência mais **dinâmica, prática e envolvente**, combinando conteúdos educacionais, exercícios e elementos de gamificação.
 
-O sistema será desenvolvido para oferecer suporte ao aprendizado de **diferentes linguagens de programação**, permitindo que o usuário desenvolva seus conhecimentos progressivamente de acordo com seu nível de experiência.
-
 ---
 
 ## 🎯 Objetivo
@@ -24,51 +22,51 @@ A plataforma pretende:
 * 🧑‍💻 Auxiliar pessoas que estão começando a programar;
 * 📚 Apresentar conteúdos de forma progressiva;
 * 🧩 Propor exercícios e desafios práticos;
-* 🎮 Utilizar elementos de gamificação para aumentar o engajamento;
 * 📈 Permitir que o usuário acompanhe sua evolução;
 * 🔥 Estimular a criação de uma rotina de estudos;
 * 🏆 Criar metas, conquistas e recompensas;
-* 💡 Desenvolver o raciocínio lógico e a resolução de problemas;
 * ⚡ Tornar o processo de aprendizagem mais dinâmico;
-* 🌐 Disponibilizar conteúdos relacionados a diferentes linguagens de programação.
 
 ---
 
-## 🎮 Gamificação
+## 🚀 Funcionalidades Principais
 
-A plataforma utilizará elementos de **gamificação** para tornar o processo de aprendizagem mais interativo e incentivar a continuidade dos estudos.
+### 1. Autenticação e Perfil Simples
+* **Autenticação Segura:** Cadastro e login via OAuth (Google, Apple, etc.).
+* **Perfil de Usuário:** Armazenamento do progresso individual diretamente na nuvem.
 
-Entre os recursos planejados estão:
+### 2. Trilha de Aprendizagem Linear
+* **Conteúdo Estruturado:** Curso focado nos fundamentos de Python.
+* **Mapa de Fases:** Interface gamificada com desbloqueio sequencial de aulas à medida que o aluno avança.
+* **Lições em Pílulas (Cards):** Telas curtas com explicações objetivas e diretas, dividindo o conteúdo em micro-etapas de fácil assimilação.
 
-* ⭐ Sistema de experiência (XP);
-* 🏆 Conquistas;
-* 🔥 Sequência de estudos;
-* 📊 Progresso por módulos;
-* 🎯 Metas de aprendizagem;
-* 🥇 Desafios;
-* 📈 Níveis de experiência;
-* 🎁 Recompensas virtuais;
-* ✅ Sistema de conclusão de atividades.
+### 3. Motor de Lições e Exercícios Interativos
+* **Formatos de Exercícios:**
+  * Múltipla escolha.
+  * Ordenação de blocos de código/palavras.
+  * Preenchimento de lacunas (*fill-in-the-blank*).
+* **Feedback Imediato:** Retorno instantâneo de acerto ou erro com explicações curtas.
+
+### 4. Mecânica Básica de Retenção (Gamificação)
+* **Contador de Ofensiva (Streak):** Monitoramento de dias consecutivos de estudo para construção de hábitos.
+* **Progresso Visual:** Barras de progresso claras por módulo e recompensas visuais ao finalizar cada lição.
+
+---
+
+## 🎨 Diretrizes de UI/UX e Gamificação
+
+### 1. Interface de Usuário (UI) e Ergonomia Visual
+* **Protagonismo do Código:** A área de código/exercício é o elemento principal da tela, enquanto botões e instruções secundárias são diferenciados por cor e peso.
+* **Minimalismo Funcional:** Design limpo e sem distrações visuais desnecessárias para evitar o cansaço mental.
+* **Feedback Instantâneo:** Respostas visuais imediatas para ações do usuário (hover em botões, telas de carregamento e avisos de erro/sucesso).
+
+### 2. Retenção de Atenção e UX de Engajamento
+* **Onboarding sem Atrito:** Acesso rápido ao valor do app antes de cadastros burocráticos para evitar o abandono inicial.
+* **Estado de Fluxo (Flow):** Progressão de dificuldade balanceada para manter o usuário engajado, evitando tédio ou frustração.
+* **Microlearning:** Explicações teóricas divididas em blocos curtos, práticos e diretos ao ponto.
+* **Lembretes Personalizados:** Notificações focadas na evolução e no progresso real do aluno.
 
 A intenção é criar um ambiente no qual o usuário consiga **visualizar sua evolução e estabelecer objetivos**, tornando o aprendizado mais estimulante.
-
----
-
-## 💻 Linguagens de Programação
-
-A plataforma poderá oferecer conteúdos relacionados a diferentes linguagens, permitindo que o usuário escolha quais tecnologias deseja estudar.
-
-Algumas das linguagens que poderão ser disponibilizadas:
-
-* 🐍 Python
-* ☕ Java
-* 🌐 JavaScript
-* 🔷 C
-* ➕ C++
-* #️⃣ C#
-* 🦀 Rust
-* 🐘 PHP
-* E outras linguagens futuramente.
 
 ---
 
@@ -109,122 +107,58 @@ O conteúdo será organizado de maneira progressiva, começando pelos conceitos 
 
 ---
 
-## 🧩 Exercícios e Desafios
-
-O aprendizado será baseado principalmente na **prática**.
-
-Cada conteúdo poderá ser acompanhado por atividades que permitam ao usuário aplicar imediatamente o conhecimento adquirido.
-
-Exemplos:
-
-```text
-📚 Aula
-   ↓
-💡 Conceito
-   ↓
-🧩 Exercício
-   ↓
-✅ Resposta
-   ↓
-⭐ XP
-   ↓
-🏆 Progresso
-```
-
-Os desafios poderão aumentar gradualmente de dificuldade conforme o usuário evolui.
-
----
-
-## 📊 Sistema de Progresso
-
-O usuário poderá acompanhar seu desenvolvimento através de informações como:
-
-* Nível atual;
-* Experiência acumulada;
-* Conteúdos concluídos;
-* Exercícios realizados;
-* Taxa de acertos;
-* Sequência de estudos;
-* Conquistas desbloqueadas;
-* Linguagens estudadas.
-
----
-
-## 💡 Público-Alvo
-
-O projeto é direcionado principalmente para:
-
-* Pessoas que nunca programaram;
-* Estudantes de programação;
-* Estudantes de cursos de tecnologia;
-* Pessoas que desejam aprender novas linguagens;
-* Iniciantes que possuem dificuldade em manter uma rotina de estudos.
-
----
-
 ## 🛠️ Tecnologias
 
-As tecnologias utilizadas no desenvolvimento serão definidas durante a evolução do projeto.
+### **Front-end & Mobile**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
-Possíveis tecnologias:
+**React Native + Expo:** Simplificam a navegação além de permitirem a reutilização do código Web no mobile.
 
-![Python](https://img.shields.io/badge/Python-blue?logo=python)
-![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
-![Git](https://img.shields.io/badge/Git-orange?logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)
+**JS / TS + React:** Transição suave do React (Web) para o React Native. TypeScript ajuda a evitar erros comuns de digitação em estruturas JSON.
 
+### **Back-end & Infraestrutura**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Pyodide + WebAssembly:** Pyodide permite executar o código Python diretamente no dispositivo do usuário via WebAssembly. Isso reduz o custo de servidor a quase zero e elimina riscos de segurança no Back-end.
+
+**Node.js:** Orquestra as APIs REST de navegação, entrega as lições e chamadas para a LLM (Tutor IA).
+
+**PostgreSQL:** Banco relacional sólido para salvar o progresso das lições, e as ofensivas (streaks).
+
+---
+
+## 🗓️ Roadmap do MVP
+
+- [ ] **Milestone 1: Alinhamento, Design e Base do Projeto**  
+  * Protótipo no Figma, setup da estrutura Expo/Node.js, modelagem do PostgreSQL e criação do conteúdo inicial.
+- [ ] **Milestone 2: Núcleo do Aplicativo**  
+  * Login com Firebase, mapa de fases e motor visual dos 3 tipos de exercícios.
+- [ ] **Milestone 3: Gamificação e Sandbox Python**  
+  * Contador de Streaks, barra de progresso e integração do Pyodide (WASM) para execução de código.
+- [ ] **Milestone 4: Tutor IA**  
+  * Engenharia de prompts e integração da LLM para suporte dinâmico no player de exercícios.
+- [ ] **Milestone 5: Testes e Lançamento**  
+  * Correções de bugs, polimento de UI/UX, deploy da infraestrutura e publicação da versão de teste.
+  
 ---
 
 ## 👥 Equipe
 
 | Integrante                       | Função    |
 | -------------------------------- | --------- |
-| Victor Yamada Miyashiro          | A definir |
-| Guilherme Gotardo Santana        | A definir |
-| Pedro Vieira Lima                | A definir |
-| Matheus Vinicius da Silva Marigo | A definir |
-| João Vitor Maia                  | A definir |
-| Bruno Henrique Viana de Souza    | A definir |
-
----
-
-## 🗺️ Roadmap
-
-* [ ] Definição dos requisitos
-* [ ] Levantamento das necessidades dos usuários
-* [ ] Modelagem do sistema
-* [ ] Definição da arquitetura
-* [ ] Desenvolvimento da interface
-* [ ] Sistema de cadastro e login
-* [ ] Sistema de aprendizagem
-* [ ] Sistema de exercícios
-* [ ] Sistema de XP
-* [ ] Sistema de níveis
-* [ ] Sistema de conquistas
-* [ ] Sistema de progresso
-* [ ] Implementação das primeiras linguagens
-* [ ] Testes
-* [ ] Correção de problemas
-* [ ] Avaliação com usuários
-* [ ] Melhorias na plataforma
-* [ ] Versão final
-
----
-
-## 🌱 Visão do Projeto
-
-A proposta é criar uma plataforma que faça com que **aprender programação seja uma atividade prática, progressiva e envolvente**.
-
-Mais do que apresentar conteúdos, o projeto busca incentivar o usuário a **aprender fazendo**, acompanhar sua evolução e desenvolver uma rotina consistente de estudos.
-
-> **Aprender programação não precisa ser apenas estudar. Pode ser uma jornada de evolução.**
-
----
-
-## 📌 Status
-
-🚧 **Projeto em desenvolvimento**
-
-Este projeto faz parte de um **Projeto Integrador acadêmico** e poderá sofrer alterações durante seu desenvolvimento.
+| Victor Yamada Miyashiro          | Frontend  |
+| Guilherme Gotardo Santana        | Backend   |
+| Pedro Vieira Lima                | UI/UX     |
+| Matheus Vinicius da Silva Marigo | Backend   |
+| João Vitor Maia                  | Conteúdo  |
+| Bruno Henrique Viana de Souza    | Backend   |
