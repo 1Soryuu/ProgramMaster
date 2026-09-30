@@ -29,6 +29,23 @@ A plataforma pretende:
 
 ---
 
+## 📊 Pesquisa e Validação (Data-Driven)
+
+Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 1.472 avaliações, filtradas de 10000 avaliações).
+
+### Palavras Chave
+![]()
+
+### Pontos Negativos
+- 40%+ das críticas focam na restrição excessiva do plano gratuito (ex: limite de chaves diárias).
+- Superficial e repetitivo para quem quer profundidade
+
+### Pontos Positivos
+- Excelente para iniciantes absolutos.
+
+
+---
+
 ## 🚀 Funcionalidades Principais
 
 ### 1. Autenticação e Perfil Simples
