@@ -53,6 +53,71 @@ A plataforma pretende:
 
 ---
 
+## Diagramas de sequência e de caso de uso
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor U as Usuário
+    participant App as App Mobile
+    participant API as Back-end
+    participant AI as Tutor IA
+
+    %% 1. Início
+    U->>App: Seleciona a lição
+    App->>API: Busca exercícios
+    API-->>App: Retorna conteúdo
+
+    %% 2. Resolução & Dúvidas
+    U->>App: Executa / Valida exercício
+    opt Precisa de ajuda
+        U->>App: Pede dica
+        App->>AI: Solicita explicação
+        AI-->>App: Envia instrução
+    end
+
+    %% 3. Conclusão
+    U->>App: Conclui a lição
+    App->>API: Salva progresso (XP / Streak)
+    API-->>App: Confirma e libera próxima fase
+```
+
+```mermaid
+flowchart LR
+    %% Atores
+    User(["👤 Aluno / Usuário"])
+    AI(["🤖 Tutor IA"])
+
+    subgraph ProgramMaster ["ProgramMaster App"]
+        direction TB
+        UC01["UC01: Autenticar no App"]
+        UC02["UC02: Visualizar Perfil / XP"]
+        UC03["UC03: Navegar pela Trilha"]
+        UC04["UC04: Realizar Exercícios"]
+        UC05["UC05: Executar Sandbox Python"]
+        UC06["UC06: Solicitar Dica da IA"]
+        UC07["UC07: Gerar Dica Pedagógica"]
+        UC08["UC08: Registrar Progresso"]
+    end
+
+    %% Relações do Usuário
+    User --> UC01
+    User --> UC02
+    User --> UC03
+    User --> UC04
+
+    %% Relações Internas do App
+    UC04 -. include .-> UC05
+    UC04 -. extend .-> UC06
+    UC04 -. include .-> UC08
+    UC06 -. include .-> UC07
+
+    %% Relação da IA
+    AI --> UC07
+```
+
+---
+
 ## 🎨 Diretrizes de UI/UX e Gamificação
 
 ### 1. Interface de Usuário (UI) e Ergonomia Visual
