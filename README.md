@@ -31,7 +31,7 @@ A plataforma pretende:
 
 ## 📊 Pesquisa e Validação (Data-Driven)
 
-Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 1.472 avaliações, filtradas de 10000 avaliações).
+Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 1.472 avaliações, filtradas de 10.000 avaliações).
 
 ### Palavras Chave
 ![Palavras chave](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/palavras_chave.png)
@@ -171,8 +171,6 @@ O conteúdo será organizado de maneira progressiva, começando pelos conceitos 
 
 ### 🟢 Nível Iniciante
 
-* Algoritmos;
-* Lógica de programação;
 * Variáveis;
 * Tipos de dados;
 * Operadores;
@@ -182,18 +180,16 @@ O conteúdo será organizado de maneira progressiva, começando pelos conceitos 
 
 ### 🟡 Nível Intermediário
 
-* Estruturas de dados;
+* Estruturas de dados (Listas, Tuplas, Dicionários e Conjuntos);
 * Manipulação de arquivos;
+* * Tratamento de erros;
 * Programação orientada a objetos;
-* Tratamento de erros;
 * Modularização;
-* Bibliotecas;
-* Projetos práticos.
+* Bibliotecas.
 
 ### 🔴 Nível Avançado
 
 * Estruturas de dados avançadas;
-* Algoritmos;
 * Arquitetura de software;
 * Padrões de projeto;
 * APIs;
