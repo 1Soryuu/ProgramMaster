@@ -131,6 +131,13 @@ flowchart LR
 * **Microlearning:** Explicações teóricas divididas em blocos curtos, práticos e diretos ao ponto.
 * **Lembretes Personalizados:** Notificações focadas na evolução e no progresso real do aluno.
 
+![Dashboard de trilhas](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Dashboard%20de%20trilhas.png)
+![Detalhes da fase](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Detalhe%20da%20fase.png)
+![Questão de múltipla escolha](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Quest%C3%A3o%20de%20m%C3%BAltipla%20escolha.png)
+![Exercício prático de código](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Exerc%C3%ADcio%20pr%C3%A1tico%20de%20c%C3%B3digo.png)
+![Resposta incorreta](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Resposta%20incorreta.png)
+![Resposta correta](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Resposta%20correta.png)
+
 A intenção é criar um ambiente no qual o usuário consiga **visualizar sua evolução e estabelecer objetivos**, tornando o aprendizado mais estimulante.
 
 ---
