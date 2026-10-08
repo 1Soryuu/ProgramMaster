@@ -70,7 +70,12 @@ https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Pesquisa/sugestoes_
   * Preenchimento de lacunas (*fill-in-the-blank*).
 * **Feedback Imediato:** Retorno instantâneo de acerto ou erro com explicações curtas.
 
-### 4. Mecânica Básica de Retenção (Gamificação)
+### 4. Tutor de Inteligência Artificial (Dicas de Código)
+* **Assistente Pedagógico Contextual:** Analisa os erros do aluno durante os exercícios e fornece orientações personalizadas.
+
+* **Feedback Preventivo:** Identifica padrões de dúvidas e sugere dicas rápidas antes mesmo de o aluno travar na resolução de um desafio.
+
+### 5. Mecânica Básica de Retenção (Gamificação)
 * **Contador de Ofensiva (Streak):** Monitoramento de dias consecutivos de estudo para construção de hábitos.
 * **Progresso Visual:** Barras de progresso claras por módulo e recompensas visuais ao finalizar cada lição.
 
