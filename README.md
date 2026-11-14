@@ -93,30 +93,31 @@ https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/SoloLearn/scrape_sol
 
 ## ⚙️ Funcionalidades Principais
 
-### 1. Autenticação e Perfil Simples
-* **Autenticação Segura:** Cadastro e login via OAuth (Google, Apple, etc.).
-* **Perfil de Usuário:** Armazenamento do progresso individual diretamente na nuvem.
+### 1. Autenticação e Perfil do Usuário
+- **Autenticação Simplificada:** Cadastro e login rápido via OAuth (Google, Apple, etc.), liberado de forma fluida para que o usuário experimente o valor do aplicativo sem barreiras iniciais.
+- **Perfil de Usuário:** Armazenamento centralizado do progresso individual e das estatísticas de estudo.
 
-### 2. Trilha de Aprendizagem Linear
-* **Conteúdo Estruturado:** Curso focado nos fundamentos de Python.
-* **Mapa de Fases:** Interface gamificada com desbloqueio sequencial de aulas à medida que o aluno avança.
-* **Lições em Pílulas (Cards):** Telas curtas com explicações objetivas e diretas, dividindo o conteúdo em micro-etapas de fácil assimilação.
+### 2. Arquitetura Modular e Progressão por Níveis
+- **Grade de Módulos (Grid):** Organização visual limpa em formato de "página de livro", cobrindo a jornada essencial de Python.
+- **Três Níveis de Dificuldade:** Conteúdo estruturado em camadas progressivas (**Básico, Intermediário e Avançado**), permitindo uma curva de aprendizado gradual e adaptada a diferentes perfis de alunos.
+- **Lições em Pílulas (Cards):** Explicações teóricas curtas, objetivas e diretas ao ponto, divididas em micro-etapas de fácil assimilação.
 
-### 3. Motor de Lições e Exercícios Interativos
-* **Formatos de Exercícios:**
-  * Múltipla escolha.
-  * Ordenação de blocos de código/palavras.
+### 3. Motor de Lições e Arcade de Prática
+- **Formatos Diversificados de Exercícios:**
+  * Múltipla escolha e análise de saída (*output*).
+  * Ordenação de blocos de lógica e sintaxe.
   * Preenchimento de lacunas (*fill-in-the-blank*).
-* **Feedback Imediato:** Retorno instantâneo de acerto ou erro com explicações curtas.
+  * **Escrita de Código:** Terminal ou editor integrado para digitação real de sintaxe, superando métodos puramente passivos.
+- **Arcade de Prática:** Área dedicada para fixação e desafios livres.
+- **Feedback Imediato:** Retorno instantâneo de acerto ou erro com explicações claras sobre a lógica envolvida.
 
-### 4. Tutor de Inteligência Artificial (Dicas de Código)
-* **Assistente Pedagógico Contextual:** Analisa os erros do aluno durante os exercícios e fornece orientações personalizadas.
+### 4. Tutor de Inteligência Artificial (Suporte em PT-BR)
+- **Assistente Pedagógico Contextual:** Analisa os erros de sintaxe e lógica do aluno durante os exercícios, oferecendo orientações personalizadas em **português** que explicam o *porquê* do problema, sem entregar a resposta pronta.
+- **Feedback Preventivo:** Identifica padrões recorrentes de dúvida e sugere dicas rápidas antes que o aluno fique travado em um desafio.
 
-* **Feedback Preventivo:** Identifica padrões de dúvidas e sugere dicas rápidas antes mesmo de o aluno travar na resolução de um desafio.
-
-### 5. Mecânica Básica de Retenção (Gamificação)
-* **Contador de Ofensiva (Streak):** Monitoramento de dias consecutivos de estudo para construção de hábitos.
-* **Progresso Visual:** Barras de progresso claras por módulo e recompensas visuais ao finalizar cada lição.
+### 5. Mecânica de Retenção e Gamificação Positiva
+- **Contador de Ofensiva (Streak):** Monitoramento de dias consecutivos de estudo com foco em construção de hábito sustentável.
+- **Progresso Visual:** Barras de conclusão claras por módulo, indicadores de nível de domínio e recompensas visuais ao finalizar cada etapa.
 
 ---
 
