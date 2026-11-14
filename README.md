@@ -31,7 +31,7 @@ A plataforma pretende:
 
 ## 📊 Pesquisa e Validação (Data-Driven)
 
-Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 3.094 avaliações, filtradas de 10.000 avaliações relacionadas ao aplicativo MIMO; amostra de 1701 avaliações, filtradas de 6690 avaliações relacionadas ao aplicativo Sololearn).
+Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 3.094 avaliações, filtradas de 10.000 avaliações relacionadas ao aplicativo Mimo; amostra de 1701 avaliações, filtradas de 6690 avaliações relacionadas ao aplicativo Sololearn).
 
 ### Palavras Chave
 ![Palavras chave](https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/Palavras_Chave.jpg)
