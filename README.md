@@ -185,27 +185,27 @@ flowchart LR
 
 ---
 
-## 🎨 Diretrizes de UI/UX e Gamificação
+## 🎨 Diretrizes de UI/UX e Gamificação (Data-Driven Design)
 
-### 1. Interface de Usuário (UI) e Ergonomia Visual
-* **Protagonismo do Código:** A área de código/exercício é o elemento principal da tela, enquanto botões e instruções secundárias são diferenciados por cor e peso.
-* **Minimalismo Funcional:** Design limpo e sem distrações visuais desnecessárias para evitar o cansaço mental.
-* **Feedback Instantâneo:** Respostas visuais imediatas para ações do usuário (hover em botões, telas de carregamento e avisos de erro/sucesso).
+As decisões de interface e experiência do usuário deste projeto foram validadas por meio da análise quantitativa de avaliações de usuários coletadas via web scraping de plataformas concorrentes, atacando diretamente os principais pontos de frustração identificados: *barreira de pagamento (chaves/vidas)*, *falta de profundidade* e *falta de recursos práticos*.
 
-### 2. Retenção de Atenção e UX de Engajamento
-* **Onboarding sem Atrito:** Acesso rápido ao valor do app antes de cadastros burocráticos para evitar o abandono inicial.
-* **Estado de Fluxo (Flow):** Progressão de dificuldade balanceada para manter o usuário engajado, evitando tédio ou frustração.
-* **Microlearning:** Explicações teóricas divididas em blocos curtos, práticos e diretos ao ponto.
-* **Lembretes Personalizados:** Notificações focadas na evolução e no progresso real do aluno.
+### 1. Arquitetura de Informação e Interface (UI)
+- **Trilha em Grid ("Página de Livro"):** Organização dos módulos em uma matriz limpa de **linhas x colunas**, otimizando a densidade visual e a navegação mobile.
+- **Protagonismo do Código:** Nas telas de exercícios, o editor e a lógica de programação ocupam o foco central, enquanto instruções e botões secundários são hierarquizados por contraste e peso visual.
+- **Minimalismo Funcional:** Design limpo e livre de poluição visual para reduzir a carga cognitiva e o cansaso mental.
+- **Feedback Instantâneo:** Respostas visuais imediatas e claras para cada interação (validações de erro, acertos e estados de carregamento), evitando a perda de progresso reportada em apps concorrentes.
 
-![Dashboard de trilhas](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Dashboard%20de%20trilhas.png)
-![Detalhes da fase](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Detalhe%20da%20fase.png)
-![Questão de múltipla escolha](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Quest%C3%A3o%20de%20m%C3%BAltipla%20escolha.png)
-![Exercício prático de código](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Exerc%C3%ADcio%20pr%C3%A1tico%20de%20c%C3%B3digo.png)
-![Resposta incorreta](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Resposta%20incorreta.png)
-![Resposta correta](https://github.com/1Soryuu/ProgramMaster/blob/main/PI/Design/Resposta%20correta.png)
+### 2. Experiência do Usuário (UX) e Gamificação
+- **Aprendizado Contínuo:** Diferente de modelos punitivos que limitam o estudo diário a poucas lições gratuitas, a gamificação aqui foca em **constância e recompensa**, permitindo que o aluno pratique no seu próprio ritmo sem interrupções forçadas.
+- **Onboarding sem Atrito:** Acesso imediato à prática de código antes de exigir cadastros complexos, reduzindo a taxa de abandono inicial.
+- **Microlearning e Estado de Fluxo (Flow):** Conteúdo dividido em blocos curtos e cumulativos, equilibrando teoria direta ao ponto com desafios progressivos para evitar tanto o tédio quanto a frustração de iniciantes.
+- **Prática Ativa e Arcade:** Além das lições guiadas, a UX contempla um ambiente dedicado a exercícios baseados no código dos usuários, para solucionar o problema da repetitividade.
+- **Níveis de Dificuldade:** Estruturação dos módulos de forma a acomodar diferentes perfis de alunos — desde o nível básico até o avançado —, permitindo uma transição fluida sem causar frustração por saltos bruscos de complexidade.
 
 A intenção é criar um ambiente no qual o usuário consiga **visualizar sua evolução e estabelecer objetivos**, tornando o aprendizado mais estimulante.
+
+**Link para o protótipo de UI:**
+https://www.figma.com/make/wBkfmdTiRhOMTxAFXoXtfz/Prot%C3%B3tipo-ProgramMaster?fullscreen=1&t=NdbmsVuGIXVlrzQX-1&code-node-id=0-6
 
 ---
 
