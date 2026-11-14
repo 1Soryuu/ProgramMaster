@@ -31,12 +31,12 @@ A plataforma pretende:
 
 ## 📊 Pesquisa e Validação (Data-Driven)
 
-Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 3.110 avaliações, filtradas de 10.000 avaliações relacionadas ao aplicativo MIMO; amostra de 1821 avaliações, filtradas de 6690 avaliações relacionadas ao aplicativo Sololearn).
+Esta seção resume a pesquisa de mercado e o feedback dos usuários reais coletados na Google Play Store (amostra de 3.094 avaliações, filtradas de 10.000 avaliações relacionadas ao aplicativo MIMO; amostra de 1701 avaliações, filtradas de 6690 avaliações relacionadas ao aplicativo Sololearn).
 
 ### Palavras Chave
 ![Palavras chave](https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/Palavras_Chave.jpg)
 
-### Resultado Mimo
+## Resultado Mimo
 ![Resultado da pesquisa](https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/Mimo/grafico_scrape_mimo.png)
 
 ### Pontos Positivos
@@ -49,20 +49,45 @@ Esta seção resume a pesquisa de mercado e o feedback dos usuários reais colet
 - Falta de Profundidade / Prática Real.
 
 ### Sugestões para Além da Pesquisa
-1. Boas Características para se Inspirar em
+
+ **1. Boas Características para se Inspirar em**
 - Playground Integrado Móvel.
 - Micro-learning (Aulas em Pedaços).
-2. Problemas Críticos a Evitar
+
+ **2. Problemas Críticos a Evitar**
 - Sensação de "Ilusão de Competência".
 - Falta de Feedback nos Erros.
 - Dependência Excessiva de Conexão Continuada.
-3. Sugestões de Diferenciais para o Projeto Integrador
+
+ **3. Sugestões Práticas para o Projeto Integrador**
 - Editor com Digitação Guiada e Teclado Facilitado.
 - Explicação Educativa de Bugs.
 - Modo Offline para Exercícios.
 
-Link para pesquisa:
+**Link para a pesquisa:**
 https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/Mimo/scrape_mimo_10000.csv
+
+## Resultado Sololearn
+
+![Resultado da pesquisa](https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/SoloLearn/grafico_scrape_solo_learn.png)
+
+### Pontos Positivos
+- Comunidade e Fóruns.
+- Curva de Aprendizado Inicial.
+
+### Pontos Negativos
+- O Bloqueio do Próprio Código e Ferramentas de IA (Prática Paga).
+
+### Sugestões para Além da Pesquisa
+
+ **1. Problemas de UX para Evitar**
+- Excesso de Poluição Visual (Feature Creep).
+
+ **2. Sugestões Práticas para o Projeto Integrador**
+- Feedback de Erro Construtivo.
+
+**Link para a pesquisa:**
+https://github.com/1Soryuu/ProgramMaster/blob/main/Pesquisa/SoloLearn/scrape_solo_learn_10000.csv
 
 ---
 
